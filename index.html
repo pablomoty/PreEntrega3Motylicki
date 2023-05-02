@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Lista de Tareas</title>
+</head>
+
+<body>
+
+    <h1>Mini Lista de Tareas</h1>
+
+    <form>
+
+        <label for="nombre">Quien realiza la tarea?</label>
+        <input type="text" id="nombre"><br>
+
+        <label for="tarea">Tarea:</label>
+        <input type="text" id="tarea"><br>
+
+        <label for="categoria">Categoría:</label>
+        <input type="text" id="categoria"><br>
+
+        <button type="button" id="boton-agregar">Agregar</button>
+
+        <button type="button" id="boton-limpiar">Limpiar tareas</button>
+    </form>
+
+    <div id="error"></div>
+
+    <ul id="lista-tareas"></ul>
+
+
+
+
+
+
+    <script src="tarea.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
